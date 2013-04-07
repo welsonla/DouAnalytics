@@ -1,3 +1,10 @@
 <% @links.each do |link|%>
-<a href="http://movie.douban.com/tag/<%=link['href']%>"><%= link.content%></a>
+
+<%= link %>
+
+<span class="btn">
+<a href="http://movie.douban.com/tag/<%=link['href']%>">
+	<%= link.content %>
+</a>
+</span><br/>
 <% end%>
