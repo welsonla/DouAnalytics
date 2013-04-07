@@ -15,8 +15,25 @@ class WelcomeController < ApplicationController
 
     @links =  doc.search('.tagCol').first.css('tbody > tr > td')
 
+    
     @links.each do |tag_link|
+      # tags = Tags.new
       
+      # p tag_link
+      # p tag_link.content
+      url  =  tag_link.search('a').attr('href').value.gsub(/\./,'http://movie.douban.com/tag')
+      count =  tag_link.search('b').children.text.to_s.gsub(/[\(\)]/,'')
+      name  =  tag_link.search('a').inner_html.to_s
+
+      p "#{url}-----#{count}-----#{name}"
+
+
+      tag = Tags.new
+      tag.name = name
+      tag.url  = url
+      tag.count= count
+      # tag.cat  = "种类"
+      tag.save
     end
     # doc.search('h3.r a.l', '//h3/a').each do |link|
     #   puts link.content

@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c35c387-1a4c-4e9e-8118-bdcb4f356f94" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/DouAnalytics.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/common.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/common.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
     </list>
     <ignored path="DouAnalytics.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="5c35c387-1a4c-4e9e-8118-bdcb4f356f94" time="1365320921343" ignored="false" />
+    <file path="$PROJECT_DIR$/config/routes.rb" changelist="5c35c387-1a4c-4e9e-8118-bdcb4f356f94" time="1365324006539" ignored="false" />
+    <file path="/welcome_controller.rb" changelist="5c35c387-1a4c-4e9e-8118-bdcb4f356f94" time="1365324935676" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,19 +34,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="welcome_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="19" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+            <state line="43" column="35" selection-start="951" selection-end="951" vertical-scroll-proportion="0.8319226">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="document_fragment.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="document_fragment.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/nokogiri-1.5.9/lib/nokogiri/xml/document_fragment.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="24" selection-start="2405" selection-end="2409" vertical-scroll-proportion="1.5135136">
+            <state line="77" column="24" selection-start="2405" selection-end="2409" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -72,6 +65,13 @@
   <component name="GitLogSettings">
     <option name="myDateState">
       <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
+      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -422,16 +422,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/nokogiri-1.5.9/lib/nokogiri/xml/document_fragment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+        <state line="77" column="24" selection-start="2405" selection-end="2409" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/nokogiri-1.5.9/lib/nokogiri/xml/document_fragment.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="24" selection-start="2405" selection-end="2409" vertical-scroll-proportion="1.5135136">
+        <state line="43" column="35" selection-start="951" selection-end="951" vertical-scroll-proportion="0.8319226">
           <folding />
         </state>
       </provider>
