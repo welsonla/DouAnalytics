@@ -1,4 +1,4 @@
-####DouAnalytics
+##DouAnalytics
 
 这是一个ruby on rails 项目
 首先在命令行中启动执行Spider先对信息进行抓取
@@ -6,7 +6,7 @@
 ````
 ruby spider/index.rb
 
-````
+`````
 
 将信息保存到本地
 
