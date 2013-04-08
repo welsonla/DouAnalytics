@@ -1,10 +1,11 @@
-<% @links.each do |link|%>
-
-<%= link %>
-
-<span class="btn">
-<a href="http://movie.douban.com/tag/<%=link['href']%>">
-	<%= link.content %>
-</a>
-</span><br/>
-<% end%>
+<% if @tags.empty? %>
+	<div class="success span6">当前暂时没有分类</div>
+<% else %>
+    <% @tags.each do |tag| %>
+    <div class="span2">
+      <a href="<%= tag.url %>">
+        <%= tag.name %>(<%=tag.count %>)
+      </a>
+    </div>
+    <% end %>
+<% end %>
